@@ -21,7 +21,7 @@ function loadSongData() {
       .fail(function() {
         $('#artwork').css("background-image", `url('${getArtwork()}')`);
         $('.song-title').html("Lo sentimos");
-        $('.song-band').html("Perdimos conexión con la estación. Mientras tanto escucha nuestro <a target='_blank' href='https://open.spotify.com/playlist/0Eq6K7tirWTUfPEX1UHqmk?si=RCviQVjDQsSjpUt_mlD8oQ'>playlist en Spotify</a>");
+        $('.song-band').html("Perdimos conexión con la estación. Mientras tanto escucha nuestro <a target='_blank' href='https://open.spotify.com/playlist/1uAjJ1l5DdaMdzMPrOmDcA?si=jR_dXmsxTR2JBdx2HdCpqg'>playlist en Spotify</a>");
       });
     setTimeout("loadSongData()", 5000);
 }
